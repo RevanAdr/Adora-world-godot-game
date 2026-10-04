@@ -1,0 +1,28 @@
+[gd_resource type="TileSet" format=3 uid="uid://cx64bf0q0prbc"]
+
+[ext_resource type="Texture2D" uid="uid://byeqaff6okqlw" path="res://assets/maps/Sunnyside_World_Assets/Tileset/spr_tileset_sunnysideworld_16px.png" id="1_rcbr1"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oa71s"]
+texture = ExtResource("1_rcbr1")
+30:7/animation_columns = 4
+30:7/animation_frame_0/duration = 0.2
+30:7/animation_frame_1/duration = 0.2
+30:7/animation_frame_2/duration = 0.2
+30:7/animation_frame_3/duration = 0.22
+30:7/0 = 0
+30:8/animation_columns = 4
+30:8/animation_frame_0/duration = 0.2
+30:8/animation_frame_1/duration = 0.2
+30:8/animation_frame_2/duration = 0.2
+30:8/animation_frame_3/duration = 0.22
+30:8/0 = 0
+30:6/animation_columns = 4
+30:6/animation_frame_0/duration = 0.2
+30:6/animation_frame_1/duration = 0.2
+30:6/animation_frame_2/duration = 0.2
+30:6/animation_frame_3/duration = 0.22
+30:6/0 = 0
+22:7/0 = 0
+
+[resource]
+sources/0 = SubResource("TileSetAtlasSource_oa71s")
